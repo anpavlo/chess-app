@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.chess.app",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.1.2",
+    "applicationType": "monolith",
+    "baseName": "chess_app",
+    "packageName": "com.chess.app",
+    "packageFolder": "com/chess/app",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "Yzc2YWFkYTkxMzIxNTdjMzA1YjM0NjRlYzFmZGQzZDAzMzQ1NWVkM2UxMjg4Njk4MjY0NjhlMWQ5N2MzZjk3NGQ0ZjU3M2MwNjRhOWQ4YmZlNjIzOGIyOThiNGM3NGM2YmQ2NDk1Y2NiNzM3OGIyNzlkZWMxZGQwZmIxYzI3ODM=",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "cerulean",
+    "clientThemeVariant": "light",
+    "testFrameworks": ["cucumber"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": ["en", "de", "it", "pl", "ru", "es", "ua"]
+  }
+}
